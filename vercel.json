@@ -3,7 +3,7 @@
   "functions": {
     "api/**/*.py": {
       "memory": 1024,
-      "maxDuration": 800,
+      "maxDuration": 300,
       "excludeFiles": "{reference/**,samples/**,scripts/**,tests/**,public/fonts/**,.claude/**,__pycache__/**,**/*.pyc,node_modules/**,.next/**}"
     }
   }

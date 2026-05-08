@@ -1,0 +1,86 @@
+[     222ms] [ERROR] Loading the font 'https://k2mkucxia43oc7fa.public.blob.vercel-storage.com/front/fonts/space-mono/space-mono-v11-latin-regular.woff2' violates the following Content Security Policy directive: "font-src 'self' *.vercel.com *.gstatic.com vercel.live". The action has been blocked. @ https://vercel.com/shparks-projects-e835190d/yform_pj_generator:553
+[     660ms] [WARNING] iso_swr: SSR fetch failed for "/v1/dashboard/projects/yform_pj_generator?teamId=shparks-projects-e835190d" {error: iso_swr_fetch_error, message: The request is missing an authentication token} @ https://vercel.com/shparks-projects-e835190d/yform_pj_generator:553
+[     676ms] [LOG] %c
+▲
+
+    ________   _ __ _          ____           __
+   /  _/ __/  (_) /( )_____   / __/___ ______/ /_
+   / // /_   / / __/// ___/  / /_/ __ `/ ___/ __/
+ _/ // __/  / / /_  (__  )  / __/ /_/ (__  ) /_
+/___/_/    /_/\__/ /____/  /_/  \__,_/____/\__/
+    _ __ _                         _    __                    __
+   (_) /( )_____   ____  ____     | |  / /__  _____________  / /
+  / / __/// ___/  / __ \/ __ \    | | / / _ \/ ___/ ___/ _ \/ /
+ / / /_  (__  )  / /_/ / / / /    | |/ /  __/ /  / /__/  __/ /
+/_/\__/ /____/   \____/_/ /_/     |___/\___/_/   \___/\___/_/
+  
+
+Hello!
+
+- Open Source https://vercel.com/oss
+- Careers https://vercel.com/careers
+- Status https://vercel-status.com
+
+ font-family: "Geist Mono", monospace; white-space: pre; line-height: 1; @ https://vercel.com/_next/static/chunks/13exvavna5f3m.js?dpl=dpl_5Q3mZtzXK6bj1bQakqHzntn8mnpJ:78
+[     851ms] [WARNING] iso_swr: SSR fetch failed for "/api/v2/teams/shparks-projects-e835190d" {error: iso_swr_fetch_error, message: The request is missing an authentication token} @ https://vercel.com/shparks-projects-e835190d/yform_pj_generator:632
+[    1029ms] [WARNING] iso_swr: SSR fetch failed for "/api/v6/deployments?limit=10&projectId=yform_pj_generator&rollbackCandidate=true&teamId=shparks-projects-e835190d" {error: iso_swr_fetch_error, message: The request is missing an authentication token} @ https://vercel.com/shparks-projects-e835190d/yform_pj_generator:722
+[    1031ms] [WARNING] iso_swr: SSR fetch failed for "/api/v9/projects/yform_pj_generator?activeBranches=1&latestDeployments=1&rollbackInfo=true&teamId=shparks-projects-e835190d" {error: iso_swr_fetch_error, message: The request is missing an authentication token} @ https://vercel.com/shparks-projects-e835190d/yform_pj_generator:806
+[    1032ms] [WARNING] iso_swr: SSR fetch failed for "/api/v6/deployments?limit=10&projectId=yform_pj_generator&state=INITIALIZING%2CREADY%2CERROR%2CBUILDING%2CQUEUED&target=preview&teamId=shparks-projects-e835190d" {error: iso_swr_fetch_error, message: The request is missing an authentication token} @ https://vercel.com/shparks-projects-e835190d/yform_pj_generator:806
+[    1039ms] [WARNING] iso_swr: SSR fetch failed for "/dashboard/projects/yform_pj_generator/production-checklist?teamId=shparks-projects-e835190d" {error: iso_swr_fetch_error, message: The request is missing an authentication token} @ https://vercel.com/shparks-projects-e835190d/yform_pj_generator:885
+[    2326ms] [WARNING] iso_swr[warn] [client] fallback error for key: "/api/v2/teams/shparks-projects-e835190d" {error: iso_swr_fetch_error, message: The request is missing an authentication token} @ https://vercel.com/_next/static/chunks/44pioqvvo-nx3.js?dpl=dpl_5Q3mZtzXK6bj1bQakqHzntn8mnpJ:6
+[    2360ms] [WARNING] iso_swr[warn] [client] fallback error for key: "/v1/dashboard/projects/yform_pj_generator?teamId=shparks-projects-e835190d" {error: iso_swr_fetch_error, message: The request is missing an authentication token} @ https://vercel.com/_next/static/chunks/44pioqvvo-nx3.js?dpl=dpl_5Q3mZtzXK6bj1bQakqHzntn8mnpJ:6
+[    3091ms] [ERROR] Failed to load resource: the server responded with a status of 403 () @ https://vercel.com/api/v1/dashboard/projects/yform_pj_generator?teamId=shparks-projects-e835190d:0
+[    3092ms] [ERROR] Failed to load resource: the server responded with a status of 403 () @ https://vercel.com/api/jwt:0
+[    3093ms] [ERROR] Failed to load resource: the server responded with a status of 403 () @ https://vercel.com/api/v1/notifications/push:0
+[    3099ms] [ERROR] Failed to load resource: the server responded with a status of 403 () @ https://vercel.com/api/v2/teams/shparks-projects-e835190d:0
+[    3100ms] [ERROR] Failed to load resource: the server responded with a status of 403 () @ https://vercel.com/api/dashboard/projects/yform_pj_generator/activity?teamId=shparks-projects-e835190d:0
+[    3213ms] [LOG] Ignored request error TypeError: Failed to fetch @ https://vercel.com/_next/static/chunks/0y-6ggqt8l0pq.js?dpl=dpl_5Q3mZtzXK6bj1bQakqHzntn8mnpJ:4
+[    3216ms] [LOG] Ignored request error CustomFetchError: Unexpected Error
+    at d (https://vercel.com/_next/static/chunks/2cfmuply4l903.js?dpl=dpl_5Q3mZtzXK6bj1bQakqHzntn8mnpJ:2:22412)
+    at async https://vercel.com/_next/static/chunks/3pud481602m2i.js?dpl=dpl_5Q3mZtzXK6bj1bQakqHzntn8mnpJ:2:15385 @ https://vercel.com/_next/static/chunks/0y-6ggqt8l0pq.js?dpl=dpl_5Q3mZtzXK6bj1bQakqHzntn8mnpJ:4
+[    3282ms] [ERROR] TypeError: Failed to fetch @ https://vercel.com/_next/static/chunks/13exvavna5f3m.js?dpl=dpl_5Q3mZtzXK6bj1bQakqHzntn8mnpJ:108
+[    3283ms] [ERROR] TypeError: Failed to fetch @ https://vercel.com/_next/static/chunks/13exvavna5f3m.js?dpl=dpl_5Q3mZtzXK6bj1bQakqHzntn8mnpJ:108
+[    3333ms] [LOG] Ignored request error TypeError: A network error has occurred. Please check your connection and try again.
+    at y (https://vercel.com/_next/static/chunks/1y92w611tqxon.js?dpl=dpl_5Q3mZtzXK6bj1bQakqHzntn8mnpJ:21:6020)
+    at async ei (https://vercel.com/_next/static/chunks/3zggfvsh5x8d3.js?dpl=dpl_5Q3mZtzXK6bj1bQakqHzntn8mnpJ:3:4533)
+    at async https://vercel.com/_next/static/chunks/3pud481602m2i.js?dpl=dpl_5Q3mZtzXK6bj1bQakqHzntn8mnpJ:2:15385 @ https://vercel.com/_next/static/chunks/0y-6ggqt8l0pq.js?dpl=dpl_5Q3mZtzXK6bj1bQakqHzntn8mnpJ:4
+[    3333ms] [LOG] Ignored request error TypeError: A network error has occurred. Please check your connection and try again.
+    at y (https://vercel.com/_next/static/chunks/1y92w611tqxon.js?dpl=dpl_5Q3mZtzXK6bj1bQakqHzntn8mnpJ:21:6020)
+    at async revalidateIfStale (https://vercel.com/_next/static/chunks/3zggfvsh5x8d3.js?dpl=dpl_5Q3mZtzXK6bj1bQakqHzntn8mnpJ:3:89326)
+    at async https://vercel.com/_next/static/chunks/3pud481602m2i.js?dpl=dpl_5Q3mZtzXK6bj1bQakqHzntn8mnpJ:2:15385 @ https://vercel.com/_next/static/chunks/0y-6ggqt8l0pq.js?dpl=dpl_5Q3mZtzXK6bj1bQakqHzntn8mnpJ:4
+[    3394ms] [ERROR] Loading the font 'https://k2mkucxia43oc7fa.public.blob.vercel-storage.com/front/fonts/space-mono/space-mono-v11-latin-regular.woff2' violates the following Content Security Policy directive: "font-src 'self' *.vercel.com *.gstatic.com vercel.live". The action has been blocked. @ https://vercel.com/login?next=%2Fshparks-projects-e835190d%2Fyform_pj_generator:38
+[    3489ms] [LOG] %c
+▲
+
+    ____                               _ __
+   / __ \________  ____ _____ ___     (_) /_
+  / / / / ___/ _ \/ __ `/ __ `__ \   / / __/
+ / /_/ / /  /  __/ /_/ / / / / / /  / / /__
+/_____/_/   \___/\__,_/_/ /_/ /_/  /_/\__( )
+   _____ __    _          _ __           |/
+  / ___// /_  (_)___     (_) /_
+  \__ \/ __ \/ / __ \   / / __/
+ ___/ / / / / / /_/ /  / / /_
+/____/_/ /_/_/ .___/  /_/\__/
+            /_/
+  
+
+Hello!
+
+- Open Source https://vercel.com/oss
+- Careers https://vercel.com/careers
+- Status https://vercel-status.com
+
+ font-family: "Geist Mono", monospace; white-space: pre; line-height: 1; @ https://vercel.com/_next/static/chunks/13exvavna5f3m.js?dpl=dpl_5Q3mZtzXK6bj1bQakqHzntn8mnpJ:78
+[    3499ms] [ERROR] The script resource is behind a redirect, which is disallowed. @ :0
+[    4227ms] [WARNING] [GSI_LOGGER]: Your client application uses one of the Google One Tap prompt UI status methods that may stop functioning when FedCM becomes mandatory. Refer to the migration guide to update your code accordingly and opt-in to FedCM to test your changes. Learn more: https://developers.google.com/identity/gsi/web/guides/fedcm-migration?s=dc#display_moment and https://developers.google.com/identity/gsi/web/guides/fedcm-migration?s=dc#skipped_moment @ https://accounts.google.com/gsi/client:84
+[    4374ms] [ERROR] Not signed in with the identity provider. @ https://vercel.com/login?next=%2Fshparks-projects-e835190d%2Fyform_pj_generator:0
+[    4375ms] [ERROR] Failed to load resource: the server responded with a status of 403 () @ https://vercel.com/api/jwt:0
+[    4652ms] [WARNING] Deprecated API for given entry type. @ https://vercel.com/_next/static/chunks/3ym_k98pq9yed.js?dpl=dpl_5Q3mZtzXK6bj1bQakqHzntn8mnpJ:18
+[    5845ms] [ERROR] [GSI_LOGGER]: FedCM get() rejects with NetworkError: Error retrieving a token. @ https://vercel.com/_next/static/chunks/2n2owirm9bnk-.js?dpl=dpl_5Q3mZtzXK6bj1bQakqHzntn8mnpJ:1
+[    5908ms] [ERROR] Failed to load resource: the server responded with a status of 429 () @ https://o205439.ingest.sentry.io/api/1323670/envelope/?sentry_key=d00780d432ac4ccf882f60dd02062e14&sentry_version=7&sentry_client=sentry.javascript.browser%2F7.111.0:0
+[    8968ms] [WARNING] The resource https://vercel.com/_next/static/media/ebay-light.3ft_ki8203ov0.svg?dpl=dpl_5Q3mZtzXK6bj1bQakqHzntn8mnpJ was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ https://vercel.com/login?next=%2Fshparks-projects-e835190d%2Fyform_pj_generator:0
+[    8968ms] [WARNING] The resource https://vercel.com/_next/static/media/stripe-light.2l_1jctpe6k_4.svg?dpl=dpl_5Q3mZtzXK6bj1bQakqHzntn8mnpJ was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ https://vercel.com/login?next=%2Fshparks-projects-e835190d%2Fyform_pj_generator:0
+[    8968ms] [WARNING] The resource https://vercel.com/_next/static/media/ebay-dark.34mho2a18qqlt.svg?dpl=dpl_5Q3mZtzXK6bj1bQakqHzntn8mnpJ was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ https://vercel.com/login?next=%2Fshparks-projects-e835190d%2Fyform_pj_generator:0
+[    8968ms] [WARNING] The resource https://vercel.com/_next/static/media/stripe-dark.16ozjth2vgb_3.svg?dpl=dpl_5Q3mZtzXK6bj1bQakqHzntn8mnpJ was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ https://vercel.com/login?next=%2Fshparks-projects-e835190d%2Fyform_pj_generator:0
+[    8969ms] [WARNING] The resource https://vercel.com/_next/static/media/adobe-light.406_7oryl71va.svg?dpl=dpl_5Q3mZtzXK6bj1bQakqHzntn8mnpJ was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ https://vercel.com/login?next=%2Fshparks-projects-e835190d%2Fyform_pj_generator:0

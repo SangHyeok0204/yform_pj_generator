@@ -1,0 +1,215 @@
+- generic [active] [ref=e1]:
+  - link "Skip to content":
+    - /url: "#geist-skip-nav"
+  - main [ref=e3]:
+    - generic [ref=e4]:
+      - generic [ref=e5]:
+        - generic [ref=e6]:
+          - generic [ref=e9]:
+            - link "shparks-projects-e835190d" [ref=e10] [cursor=pointer]:
+              - /url: /shparks-projects-e835190d
+              - generic [ref=e13]: shparks-projects-e835190d
+            - button [ref=e15] [cursor=pointer]:
+              - img [ref=e17]
+          - button "Find… F" [ref=e20]:
+            - generic [ref=e22]:
+              - img [ref=e24]
+              - generic [ref=e26]: Find…
+              - generic [ref=e28]: F
+        - navigation [ref=e30]:
+          - generic [ref=e33]:
+            - link "Overview" [ref=e34] [cursor=pointer]:
+              - /url: /shparks-projects-e835190d/yform_pj_generator
+              - generic [ref=e37]: Overview
+            - link "Deployments" [ref=e38] [cursor=pointer]:
+              - /url: /shparks-projects-e835190d/yform_pj_generator/deployments
+              - img [ref=e40]
+              - generic [ref=e43]: Deployments
+            - link "Logs" [ref=e44] [cursor=pointer]:
+              - /url: /shparks-projects-e835190d/yform_pj_generator/logs
+              - img [ref=e46]
+              - generic [ref=e49]: Logs
+            - link "Analytics" [ref=e50] [cursor=pointer]:
+              - /url: /shparks-projects-e835190d/yform_pj_generator/analytics
+              - img [ref=e52]
+              - generic [ref=e55]: Analytics
+            - link "Speed Insights" [ref=e56] [cursor=pointer]:
+              - /url: /shparks-projects-e835190d/yform_pj_generator/speed-insights
+              - img [ref=e58]
+              - generic [ref=e61]: Speed Insights
+            - link "Observability" [ref=e62] [cursor=pointer]:
+              - /url: /shparks-projects-e835190d/yform_pj_generator/observability
+              - img [ref=e64]
+              - generic [ref=e67]: Observability
+              - img [ref=e69]
+            - link "Firewall" [ref=e71] [cursor=pointer]:
+              - /url: /shparks-projects-e835190d/yform_pj_generator/firewall
+              - img [ref=e73]
+              - generic [ref=e77]: Firewall
+              - img [ref=e79]
+            - link "CDN" [ref=e81] [cursor=pointer]:
+              - /url: /shparks-projects-e835190d/yform_pj_generator/cdn
+              - img [ref=e83]
+              - generic [ref=e86]: CDN
+              - img [ref=e88]
+            - separator [ref=e90]
+            - link "Environment Variables" [ref=e91] [cursor=pointer]:
+              - /url: /shparks-projects-e835190d/yform_pj_generator/settings/environment-variables
+              - img [ref=e93]
+              - generic [ref=e96]: Environment Variables
+            - link "Domains" [ref=e97] [cursor=pointer]:
+              - /url: /shparks-projects-e835190d/yform_pj_generator/settings/domains
+              - img [ref=e99]
+              - generic [ref=e102]: Domains
+            - link "Integrations" [ref=e103] [cursor=pointer]:
+              - /url: /shparks-projects-e835190d/yform_pj_generator/settings/integrations
+              - img [ref=e105]
+              - generic [ref=e108]: Integrations
+            - link "Storage" [ref=e109] [cursor=pointer]:
+              - /url: /shparks-projects-e835190d/yform_pj_generator/stores
+              - img [ref=e111]
+              - generic [ref=e114]: Storage
+            - link "Flags" [ref=e115] [cursor=pointer]:
+              - /url: /shparks-projects-e835190d/yform_pj_generator/flags
+              - img [ref=e117]
+              - generic [ref=e120]: Flags
+              - img [ref=e122]
+            - link "Agent" [ref=e124] [cursor=pointer]:
+              - /url: /shparks-projects-e835190d/yform_pj_generator/agent
+              - img [ref=e126]
+              - generic [ref=e129]: Agent
+              - img [ref=e131]
+            - link "AI Gateway" [ref=e133] [cursor=pointer]:
+              - /url: /shparks-projects-e835190d/yform_pj_generator/ai-gateway
+              - img [ref=e135]
+              - generic [ref=e138]: AI Gateway
+              - img [ref=e140]
+            - link "Sandboxes" [ref=e142] [cursor=pointer]:
+              - /url: /shparks-projects-e835190d/yform_pj_generator/sandboxes
+              - img [ref=e144]
+              - generic [ref=e147]: Sandboxes
+            - link "Workflows" [ref=e148] [cursor=pointer]:
+              - /url: /shparks-projects-e835190d/yform_pj_generator/workflows
+              - img [ref=e150]
+              - generic [ref=e153]: Workflows
+            - separator [ref=e154]
+            - link "Usage" [ref=e155] [cursor=pointer]:
+              - /url: /shparks-projects-e835190d/yform_pj_generator/usage
+              - img [ref=e157]
+              - generic [ref=e160]: Usage
+            - link "Support" [ref=e161] [cursor=pointer]:
+              - /url: /shparks-projects-e835190d/yform_pj_generator/support
+              - img [ref=e163]
+              - generic [ref=e166]: Support
+            - link "Settings" [ref=e167] [cursor=pointer]:
+              - /url: /shparks-projects-e835190d/yform_pj_generator/settings
+              - img [ref=e169]
+              - generic [ref=e172]: Settings
+              - img [ref=e174]
+        - generic [ref=e178]:
+          - button [disabled]:
+            - img
+            - generic:
+              - img
+          - img [ref=e181]
+      - button [ref=e184] [cursor=pointer]:
+        - img [ref=e185]
+    - generic [ref=e188]:
+      - generic [ref=e189]:
+        - generic [ref=e192]:
+          - link [ref=e193] [cursor=pointer]:
+            - /url: /shparks-projects-e835190d/yform_pj_generator
+          - button [ref=e195] [cursor=pointer]:
+            - img [ref=e197]
+          - link "Back to team view" [ref=e201] [cursor=pointer]:
+            - /url: /shparks-projects-e835190d
+            - img [ref=e203]
+        - generic [ref=e207]: Overview
+        - button "Open page actions menu" [ref=e209] [cursor=pointer]:
+          - img [ref=e211]
+      - generic [ref=e215]:
+        - generic [ref=e220]:
+          - heading "Production Deployment" [level=3] [ref=e222]
+          - generic [ref=e236]:
+            - generic [ref=e239]:
+              - term [ref=e240]: Deployment
+              - definition [ref=e241]
+            - generic [ref=e246]:
+              - term [ref=e247]:
+                - generic [ref=e249]:
+                  - text: Domains
+                  - link [ref=e250] [cursor=pointer]:
+                    - /url: /shparks-projects-e835190d/yform_pj_generator/settings/domains
+                    - img [ref=e251]
+              - definition [ref=e253]
+            - generic [ref=e255]:
+              - generic [ref=e256]:
+                - term [ref=e257]: Status
+                - definition [ref=e258]
+              - generic [ref=e261]:
+                - term [ref=e262]: Created
+                - definition [ref=e263]
+            - generic [ref=e266]:
+              - term [ref=e267]: Source
+              - definition [ref=e268]
+          - button "Deployment Settings" [disabled] [ref=e274]:
+            - generic [ref=e275]:
+              - img [ref=e276]
+              - generic [ref=e279]: Deployment Settings
+        - generic [ref=e288]:
+          - generic [ref=e289]:
+            - generic [ref=e290]:
+              - generic [ref=e291]:
+                - paragraph [ref=e292]:
+                  - strong [ref=e293]: Production Checklist
+                - generic [ref=e295]: 0/5
+              - button "Go to page" [ref=e296] [cursor=pointer]:
+                - img [ref=e298]
+              - button [ref=e300] [cursor=pointer]
+            - generic [ref=e304]:
+              - button "Connect Git Repository" [ref=e305] [cursor=pointer]:
+                - img [ref=e306]
+                - generic [ref=e308]: Connect Git Repository
+              - button "Add Custom Domain" [ref=e309] [cursor=pointer]:
+                - img [ref=e310]
+                - generic [ref=e312]: Add Custom Domain
+              - button "Preview Deployment" [ref=e313] [cursor=pointer]:
+                - img [ref=e314]
+                - generic [ref=e316]: Preview Deployment
+              - button "Enable Web Analytics" [ref=e317] [cursor=pointer]:
+                - img [ref=e318]
+                - generic [ref=e320]: Enable Web Analytics
+              - button "Enable Speed Insights" [ref=e321] [cursor=pointer]:
+                - img [ref=e322]
+                - generic [ref=e324]: Enable Speed Insights
+          - generic [ref=e325]:
+            - generic [ref=e326]:
+              - generic [ref=e327]:
+                - paragraph [ref=e328]:
+                  - strong [ref=e329]: Observability
+                - time [ref=e330]: 6h
+              - link "Go to page" [ref=e331] [cursor=pointer]:
+                - /url: "#"
+                - img [ref=e333]
+              - link [ref=e335] [cursor=pointer]:
+                - /url: "#"
+            - generic [ref=e337]:
+              - generic [ref=e339]: Edge Requests
+              - generic [ref=e344]: Function Invocations
+              - generic [ref=e349]: Error Rate
+          - generic [ref=e355]:
+            - paragraph [ref=e356]:
+              - strong [ref=e357]: Analytics
+            - time [ref=e358]: 1w
+        - generic [ref=e372]:
+          - img [ref=e375]
+          - img [ref=e386]
+          - img [ref=e397]
+          - img [ref=e408]
+          - generic [ref=e417]:
+            - img [ref=e420]
+            - img [ref=e431]
+            - img [ref=e442]
+            - img [ref=e453]
+            - img [ref=e464]
+            - img [ref=e475]
