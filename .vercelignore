@@ -1,0 +1,31 @@
+# 개발용 자료 — 배포 업로드 제외
+reference/
+samples/
+scripts/
+tests/
+
+# 빌드 산출물
+.next/
+node_modules/
+
+# 캐시
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# 환경변수 (Vercel 대시보드에서 별도 설정)
+.env
+.env.local
+.env*.local
+
+# OS
+.DS_Store
+Thumbs.db
+
+# 에디터
+.vscode/
+.idea/
+
+# Claude 설정
+.claude/
+CLAUDE.md

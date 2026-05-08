@@ -1,0 +1,12 @@
+{
+  "permissions": {
+    "allow": [
+      "PowerShell(Copy-Item *)",
+      "PowerShell(Get-Command *)",
+      "PowerShell(Get-Item *)",
+      "PowerShell(Stop-Process *)",
+      "Bash(python -c ' *)",
+      "PowerShell(Get-NetTCPConnection *)"
+    ]
+  }
+}

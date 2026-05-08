@@ -1,0 +1,18 @@
+@import "tailwindcss";
+
+@theme {
+  --color-navy: #122b46;
+  --color-ink: #000000;
+  --color-ink-muted: #7a7a7a;
+  --color-hairline: #e0e0e0;
+  --color-soft: #f0f0f0;
+  --font-sans: "Pretendard", "Pretendard ExtraLight", system-ui, -apple-system, sans-serif;
+}
+
+html,
+body {
+  background: #ffffff;
+  color: var(--color-ink);
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+}
