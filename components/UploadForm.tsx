@@ -68,7 +68,7 @@ export function UploadForm({ onSubmit, disabled }: Props) {
           type="text"
           value={title}
           onChange={(e) => setTitle(e.target.value)}
-          placeholder="Options Market Makers"
+          placeholder="발표 제목을 넣어주세요"
           className="input"
           disabled={disabled}
         />
@@ -79,7 +79,7 @@ export function UploadForm({ onSubmit, disabled }: Props) {
           type="text"
           value={subtitle}
           onChange={(e) => setSubtitle(e.target.value)}
-          placeholder="How OMMs Trade and Manage Risk in KOSPI 200 Index Options"
+          placeholder="부제를 넣어주세요"
           className="input"
           disabled={disabled}
         />
@@ -90,7 +90,7 @@ export function UploadForm({ onSubmit, disabled }: Props) {
           type="text"
           value={memberLine}
           onChange={(e) => setMemberLine(e.target.value)}
-          placeholder="홍길동 · 김철수 · 이영희 (2026)   |   Reviewed by Y-FoRM"
+          placeholder="38기 박상혁, 38기 이태주"
           className="input"
           disabled={disabled}
         />

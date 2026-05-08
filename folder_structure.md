@@ -85,6 +85,7 @@ pj_template_generator/
 ├── package-lock.json
 ├── package.json
 ├── postcss.config.mjs
+├── README.md
 ├── requirements.txt
 ├── tsconfig.json
 └── vercel.json
