@@ -123,7 +123,7 @@ def generate_deck_content(
         output_config={"effort": "high"},
         system=system_blocks,
         tools=[SUBMIT_TOOL],
-        tool_choice={"type": "tool", "name": "submit_deck_content"},
+        tool_choice={"type": "auto"},
         messages=[{"role": "user", "content": user_message}],
     ) as stream:
         message = stream.get_final_message()
