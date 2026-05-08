@@ -14,6 +14,7 @@ Returns: application/vnd.openxmlformats-officedocument.presentationml.presentati
 """
 import re
 from typing import Annotated, Optional
+from urllib.parse import quote
 
 from anthropic import APIError, RateLimitError
 from fastapi import FastAPI, File, Form, Header, HTTPException, UploadFile
@@ -35,6 +36,13 @@ SAFE_NAME = re.compile(r"[^\w\-가-힣]+")
 def _safe_filename(title: str) -> str:
     base = SAFE_NAME.sub("_", title).strip("_")[:60] or "deck"
     return f"{base}.pptx"
+
+
+def _content_disposition(title: str) -> str:
+    name = _safe_filename(title)
+    ascii_fallback = re.sub(r"[^\x20-\x7e]+", "_", name).strip("_") or "deck.pptx"
+    encoded = quote(name, safe="")
+    return f"attachment; filename=\"{ascii_fallback}\"; filename*=UTF-8''{encoded}"
 
 
 @app.post("/api/generate")
@@ -92,7 +100,7 @@ async def generate(
         content=pptx_bytes,
         media_type=PPTX_MIME,
         headers={
-            "Content-Disposition": f'attachment; filename="{_safe_filename(title)}"',
+            "Content-Disposition": _content_disposition(title),
             "X-Slide-Count": str(len(content.slides) + 2),
         },
     )
