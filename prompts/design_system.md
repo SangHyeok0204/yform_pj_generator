@@ -1,6 +1,12 @@
 # Design System Prompt — Y-PJ-FoRM Academic Society Deck (Pretendard / PPTX)
 
 > **Use:** This document is a design-system prompt for Claude to author PowerPoint (`.pptx`) presentations for the Y-PJ-FoRM academic society. It encodes the visual language defined by the reference template `Y-PJ-FoRM-2026.pptx` and is expressed entirely in **Pretendard**. Output format is **`.pptx`** authored via `python-pptx` (or equivalent), with all coordinates given in inches for direct application.
+>
+> **Companion docs (must read together):**
+> - **`prompts/slide_planning.md`** — 3-stage planning pipeline (Outline → Slide Plan → Content Fill). Defines *one slide = one idea* rule and the `DeckPlan` schema (`SectionOutline`, `SlidePlan`).
+> - **`prompts/density_caps.md`** — hard caps on body size (chars/headings/list items/avg paragraph length), auto-shrink ladder (18 → 16 → 14pt), and `SlideOverflowError` policy.
+>
+> The present document defines the *visual contract*; the two companions define *how to plan a deck within that contract* and *how much can fit on one slide*.
 
 ## Required Project Attachments (filenames are exact — do not rename)
 

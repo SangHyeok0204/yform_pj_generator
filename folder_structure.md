@@ -60,7 +60,9 @@ pj_template_generator/
 ├── prompts/
 │   ├── examples/
 │   │   └── kospi200_delta_hedging.json
-│   └── design_system.md
+│   ├── density_caps.md
+│   ├── design_system.md
+│   └── slide_planning.md
 ├── public/
 │   └── fonts/
 │       ├── PRETENDARD-BLACK.OTF
@@ -85,12 +87,14 @@ pj_template_generator/
 │   ├── kospi200_delta_hedging.pdf
 │   └── kospi200_mm_project_outline.docx
 ├── scripts/
+│   ├── _check_shrink.py
 │   ├── _extract_outline.py
 │   ├── _inspect_master.py
 │   ├── _inspect_output_slide.py
 │   ├── _legacy_build_deck.py
 │   ├── _master_dump.txt
 │   ├── _outline_dump.txt
+│   ├── _test_guards.py
 │   ├── _verify_output.py
 │   ├── build_kospi200_mm.py
 │   ├── extract_kospi200_to_json.py

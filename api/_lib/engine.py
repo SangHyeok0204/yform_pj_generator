@@ -2,7 +2,13 @@
 
 Encodes prompts/design_system.md as Python constants and slide builders.
 Content-agnostic: takes a DeckContent object, returns PPTX bytes.
+
+Overflow handling (see prompts/density_caps.md):
+- estimate body height per block list before rendering
+- auto-shrink body 18 -> 16 -> 14 pt if needed
+- raise SlideOverflowError if 14pt still does not fit
 """
+import math
 from io import BytesIO
 from pathlib import Path
 
@@ -15,6 +21,20 @@ from pptx.oxml.ns import qn
 from pptx.util import Inches, Pt
 
 from .schema import DeckContent
+
+
+class SlideOverflowError(Exception):
+    """Raised when a slide's body still overflows at the smallest body size (14pt)."""
+
+    def __init__(self, title: str, est_h_in: float, max_h_in: float):
+        super().__init__(
+            f"슬라이드 '{title}' 본문 추정 높이 {est_h_in:.2f}\" > 본문 최대 {max_h_in:.2f}\". "
+            f"14pt까지 줄여도 안 맞음 — 슬라이드를 분할하거나 본문을 줄여 주세요 "
+            f"(prompts/density_caps.md 참조)."
+        )
+        self.title = title
+        self.est_h_in = est_h_in
+        self.max_h_in = max_h_in
 
 # === Paths ===
 PROJECT_ROOT = Path(__file__).resolve().parent.parent.parent
@@ -54,6 +74,97 @@ TOC_HDR_X, TOC_HDR_Y, TOC_HDR_W, TOC_HDR_H = Inches(0.31), Inches(0.11), Inches(
 TOC_RULE_X1, TOC_RULE_Y, TOC_RULE_X2 = Inches(0.00), Inches(1.20), Inches(10.12)
 TOC_LIST_X, TOC_LIST_Y, TOC_LIST_W, TOC_LIST_H = Inches(0.31), Inches(1.34), Inches(9.45), Inches(3.13)
 TOC_BOTTOM_RULE_Y = Inches(6.70)
+
+
+# === Height estimation & auto-shrink (prompts/density_caps.md §2) ===
+LINE_SPACING = 1.18
+SHRINK_LADDER = [(20, 18), (18, 16), (16, 14)]  # (head, body) pt pairs
+
+
+def _char_width_pt(c: str, size_pt: float) -> float:
+    """Approximate character width at `size_pt` point."""
+    cp = ord(c)
+    if 0xAC00 <= cp <= 0xD7AF:  # Hangul syllables
+        return size_pt
+    if 0x4E00 <= cp <= 0x9FFF:  # CJK unified
+        return size_pt
+    if 0x3040 <= cp <= 0x30FF:  # Hiragana/Katakana
+        return size_pt
+    if cp < 128 and (c.isalnum() or c == " "):
+        return size_pt * 0.55
+    return size_pt * 0.50
+
+
+def _wrap_lines(text: str, size_pt: float, box_w_pt: float) -> int:
+    if not text:
+        return 1
+    total = sum(_char_width_pt(c, size_pt) for c in text)
+    return max(1, math.ceil(total / box_w_pt))
+
+
+def _estimate_blocks_height_in(
+    blocks: list[dict],
+    body_size: int,
+    head_size: int,
+    body_w_in: float,
+    line_spacing: float = LINE_SPACING,
+) -> float:
+    """Estimate total body height (inches) for a block list at the given font sizes.
+
+    Mirrors `add_body_paragraphs` defaults for space_before/space_after so the
+    estimate stays in lockstep with the actual renderer.
+    """
+    box_w_pt = body_w_in * 72.0
+    total_pt = 0.0
+    for blk in blocks:
+        kind = blk.get("kind", "p")
+        if kind == "gap":
+            total_pt += blk.get("pt", 6)
+            continue
+        if kind == "h":
+            size = blk.get("size") or head_size
+            n_lines = _wrap_lines(blk.get("text", ""), size, box_w_pt)
+            total_pt += n_lines * size * line_spacing
+            total_pt += blk.get("space_before", 10) + blk.get("space_after", 2)
+        elif kind == "p":
+            size = blk.get("size") or body_size
+            n_lines = _wrap_lines(blk.get("text", ""), size, box_w_pt)
+            total_pt += n_lines * size * line_spacing
+            total_pt += blk.get("space_before", 2) + blk.get("space_after", 2)
+        elif kind == "li":
+            size = blk.get("size") or body_size
+            num = blk.get("num") or ""
+            label = blk.get("label") or ""
+            text = blk.get("text", "")
+            full = (f"{num} " if num else "") + (f"{label} — " if label else "") + text
+            n_lines = _wrap_lines(full, size, box_w_pt)
+            total_pt += n_lines * size * line_spacing
+            total_pt += blk.get("space_before", 4) + blk.get("space_after", 2)
+        elif kind == "caption":
+            size = blk.get("size") or 12
+            n_lines = _wrap_lines(blk.get("text", ""), size, box_w_pt)
+            total_pt += n_lines * size * line_spacing
+            total_pt += blk.get("space_before", 4) + blk.get("space_after", 0)
+    return total_pt / 72.0
+
+
+def _fit_body_size(
+    blocks: list[dict], body_w_in: float, max_h_in: float
+) -> tuple[int, int, float]:
+    """Pick the largest (head, body) pair from SHRINK_LADDER whose estimate <= max_h.
+
+    Returns (head_size, body_size, est_h_in). If none fit, returns the smallest
+    pair so the caller can raise SlideOverflowError with the still-overflowing
+    estimate.
+    """
+    last_est = 0.0
+    for head_size, body_size in SHRINK_LADDER:
+        est = _estimate_blocks_height_in(blocks, body_size, head_size, body_w_in)
+        last_est = est
+        if est <= max_h_in:
+            return head_size, body_size, est
+    head_size, body_size = SHRINK_LADDER[-1]
+    return head_size, body_size, last_est
 
 
 # === Helpers ===
@@ -258,14 +369,30 @@ def build_toc(prs, items):
     return slide
 
 
-def build_content(prs, title, subtitle, blocks, body_size=18, head_size=20):
+def build_content(prs, title, subtitle, blocks):
+    """Build a standard content slide with auto-shrink overflow protection.
+
+    Estimates body height with `_fit_body_size` against the SHRINK_LADDER
+    (18 -> 16 -> 14pt) and raises SlideOverflowError if the body still does
+    not fit at 14pt.
+    """
     slide = prs.slides.add_slide(prs.slide_layouts[6])
     add_section_title(slide, title)
     add_hairline(slide)
+
+    body_w_in = BODY_W / 914400
     if subtitle:
+        max_h_in = BODY_H / 914400
+        head_size, body_size, est = _fit_body_size(blocks, body_w_in, max_h_in)
+        if est > max_h_in:
+            raise SlideOverflowError(title, est, max_h_in)
         add_subtitle(slide, subtitle)
         add_body_paragraphs(slide, blocks, body_size=body_size, head_size=head_size)
     else:
+        max_h_in = 6.15  # taller body when no subtitle is present
+        head_size, body_size, est = _fit_body_size(blocks, body_w_in, max_h_in)
+        if est > max_h_in:
+            raise SlideOverflowError(title, est, max_h_in)
         add_body_paragraphs(
             slide,
             blocks,
