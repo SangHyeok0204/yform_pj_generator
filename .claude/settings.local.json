@@ -6,7 +6,8 @@
       "PowerShell(Get-Item *)",
       "PowerShell(Stop-Process *)",
       "Bash(python -c ' *)",
-      "PowerShell(Get-NetTCPConnection *)"
+      "PowerShell(Get-NetTCPConnection *)",
+      "Bash(*setup-ralph-loop.sh*)"
     ]
   }
 }

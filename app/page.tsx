@@ -45,13 +45,13 @@ export default function Page() {
   return (
     <main className="min-h-screen flex flex-col items-center px-6 py-16">
       <div className="w-full max-w-xl">
-        <header className="mb-10">
+        <header className="mb-10 text-center">
           <h1 className="text-3xl font-bold text-[#122B46] tracking-tight">
             Y-PJ-FoRM 발표자료 생성기
           </h1>
           <p className="mt-2 text-sm text-[#7A7A7A] leading-relaxed">
-            프로젝트 내용을 정리한 PDF 또는 DOCX 파일을 업로드하면 학회
-            템플릿에 맞추어 PPTX 를 자동으로 생성합니다.
+            프로젝트 내용을 정리한 PDF 또는 DOCX 파일을 
+            업로드하면 학회 템플릿에 맞추어 PPTX 를 자동으로 생성합니다.
           </p>
         </header>
 

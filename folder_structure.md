@@ -11,6 +11,7 @@ pj_template_generator/
 │   │   ├── learned.md
 │   │   ├── refactoring.md
 │   │   └── start.md
+│   ├── ralph-loop.local.md
 │   ├── settings.json
 │   └── settings.local.json
 ├── .playwright-mcp/
@@ -73,18 +74,25 @@ pj_template_generator/
 │       └── PRETENDARD-THIN_0.OTF
 ├── reference/
 │   ├── past_outputs/
-│   │   ├── Y-PJ-FoRM_Basis_Trading.pptx
+│   │   ├── pptx.pptx
 │   │   ├── Y-PJ-FoRM_Basis_Trading_example.pptx
-│   │   ├── Y-PJ-FoRM_KOSPI200_DeltaHedging.pptx
-│   │   └── Y-PJ-FoRM_KOSPI200_DeltaHedging__regen.pptx
+│   │   └── Y-PJ-FoRM_KOSPI200_MarketMaking.pptx
 │   ├── cover_reference.png
-│   └── master_deck.pptx
+│   ├── master_deck_1.pptx
+│   └── master_deck_2.pptx
 ├── samples/
 │   ├── basis_trading_example.docx
 │   ├── kospi200_delta_hedging.pdf
 │   └── kospi200_mm_project_outline.docx
 ├── scripts/
+│   ├── _extract_outline.py
+│   ├── _inspect_master.py
+│   ├── _inspect_output_slide.py
 │   ├── _legacy_build_deck.py
+│   ├── _master_dump.txt
+│   ├── _outline_dump.txt
+│   ├── _verify_output.py
+│   ├── build_kospi200_mm.py
 │   ├── extract_kospi200_to_json.py
 │   ├── render_local.py
 │   └── update_folder_structure.py

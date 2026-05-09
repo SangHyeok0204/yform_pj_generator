@@ -1,0 +1,464 @@
+
+========== m1.pptx ==========
+slide_width:  13.333"
+slide_height: 7.500"
+slides:       7
+
+--- slide 1 (5 shapes) ---
+  [PICTURE (13)] Picture 7  L=10.577471566054243 T=-0.41732939632545935 W=2.270731627296588 H=1.7030468066491689
+  [PICTURE (13)] Picture 18  L=0.0 T=1.0936132983377078e-06 W=10.092342519685038 H=6.703122265966754
+  [PICTURE (13)] Picture 8  L=10.09234142607174 T=6.703125546806649 W=3.2409897200349955 H=0.7968744531933508
+  [TEXT_BOX (17)] TextBox 2  L=0.2018383639545057 T=6.8827766841644795 W=9.40536854768154 H=0.43756561679790024
+    p0r0: align=None font='Pretendard SemiBold' size=254000 bold=True color=None text='Y-'
+    p0r1: align=None font='Pretendard SemiBold' size=254000 bold=True color=None text='FoRM'
+    p0r2: align=None font='Pretendard SemiBold' size=254000 bold=True color=None text=' 38'
+    p0r3: align=None font='Pretendard SemiBold' size=254000 bold=True color=None text='th'
+    p0r4: align=None font='Pretendard SemiBold' size=254000 bold=True color=None text=' '
+    p0r5: align=None font='Pretendard SemiBold' size=254000 bold=True color=None text='박상혁'
+    p0r6: align=None font='Pretendard SemiBold' size=254000 bold=True color=None text=' '
+    p0r7: align=None font='Pretendard SemiBold' size=254000 bold=True color=None text='39'
+    p0r8: align=None font='Pretendard SemiBold' size=254000 bold=True color=None text='th'
+    p0r9: align=None font='Pretendard SemiBold' size=254000 bold=True color=None text=' '
+    p0r10: align=None font='Pretendard SemiBold' size=254000 bold=True color=None text='우민성 '
+    p0r11: align=None font='Pretendard SemiBold' size=254000 bold=True color=None text='('
+    p0r12: align=None font='Pretendard SemiBold' size=254000 bold=True color=None text='pretendard'
+    p0r13: align=None font='Pretendard SemiBold' size=254000 bold=True color=None text=' semi bold 20pt)'
+  [TEXT_BOX (17)] Google Shape;112;p3  L=0.2662620297462817 T=2.9085837707786526 W=12.662878390201225 H=2.423393482064742
+    p0r0: align=None font='Pretendard ExtraBold' size=508000 bold=True color=None text='플젝명'
+    p0r1: align=None font='Pretendard ExtraBold' size=508000 bold=True color=None text=' '
+    p0r2: align=None font='Pretendard ExtraBold' size=508000 bold=True color=None text='('
+    p0r3: align=None font='Pretendard ExtraBold' size=508000 bold=True color=None text='영어로'
+    p0r4: align=None font='Pretendard ExtraBold' size=508000 bold=True color=None text=')'
+    p0r5: align=None font='Pretendard ExtraBold' size=508000 bold=True color=None text=' 작성 '
+    p1r0: align=None font='Pretendard ExtraBold' size=508000 bold=True color=None text='Pretendard'
+    p1r1: align=None font='Pretendard ExtraBold' size=508000 bold=True color=None text=' Extra'
+    p1r2: align=None font='Pretendard ExtraBold' size=508000 bold=True color=None text=' '
+    p1r3: align=None font='Pretendard ExtraBold' size=508000 bold=True color=None text='bold'
+    p1r4: align=None font='Pretendard ExtraBold' size=508000 bold=True color=None text=' '
+    p1r5: align=None font='Pretendard ExtraBold' size=508000 bold=True color=None text='40'
+
+--- slide 2 (5 shapes) ---
+  [TEXT_BOX (17)] TextBox 6  L=0.3125 T=0.10937554680664917 W=4.507245188101487 H=0.9424475065616797
+    p0r0: align=None font='Pretendard SemiBold' size=635000 bold=True color=None text='Contents'
+  [LINE (9)] Straight Connector 1  L=0.0 T=1.1953915135608049 W=10.115940507436571 H=0.0
+  [LINE (9)] Straight Connector 11  L=0.0 T=6.703125546806649 W=13.333333333333334 H=0.0
+  [PICTURE (13)] Picture 4  L=10.115940507436571 T=-0.03811242344706912 W=11.292135826771654 H=7.5
+  [TEXT_BOX (17)] Google Shape;100;p2  L=0.3125 T=1.3389610673665793 W=9.45312445319335 H=3.130229658792651
+    p0r0: align=LEFT (1) font='Pretendard ExtraLight' size=254000 bold=None color=None text='1. Overview'
+    p1r0: align=LEFT (1) font='Pretendard ExtraLight' size=254000 bold=None color=None text='2. Theta, Gamma, Vega, Rho'
+    p2r0: align=LEFT (1) font='Pretendard ExtraLight' size=254000 bold=None color=None text='3. Greek letter calculation'
+    p3r0: align=LEFT (1) font='Pretendard ExtraLight' size=254000 bold=None color=None text='4. Theta, Gamma, Vega, Rho'
+    p4r0: align=LEFT (1) font='Pretendard ExtraLight' size=254000 bold=None color=None text='5. The correlation between Greek and hedging'
+
+--- slide 3 (4 shapes) ---
+  [LINE (9)] Straight Connector 1  L=0.0 T=0.9334765966754156 W=13.333333333333334 H=0.0
+  [TEXT_BOX (17)] Google Shape;105;p3  L=0.12499890638670166 T=0.08893153980752407 W=11.85937554680665 H=0.7741097987751531
+    p0r0: align=LEFT (1) font='Pretendard SemiBold' size=508000 bold=True color=(18, 43, 70) text='1. Overview ('
+    p0r1: align=LEFT (1) font='Pretendard SemiBold' size=508000 bold=True color=(18, 43, 70) text='pretendard'
+    p0r2: align=LEFT (1) font='Pretendard SemiBold' size=508000 bold=True color=(18, 43, 70) text=' semibold 40pt)'
+  [TEXT_BOX (17)] Google Shape;107;p3  L=0.12499890638670166 T=2.07913823272091 W=8.884057305336833 H=4.1399945319335085
+    p0r0: align=LEFT (1) font='Pretendard ExtraLight' size=254000 bold=None color=None text='본문 '
+    p0r1: align=LEFT (1) font='Pretendard ExtraLight' size=254000 bold=None color=None text='서체'
+    p0r2: align=LEFT (1) font='Pretendard ExtraLight' size=254000 bold=None color=None text=': '
+    p0r3: align=LEFT (1) font='Pretendard ExtraLight' size=254000 bold=None color=None text='Pretendard'
+    p0r4: align=LEFT (1) font='Pretendard ExtraLight' size=254000 bold=None color=None text=' '
+    p0r5: align=LEFT (1) font='Pretendard ExtraLight' size=254000 bold=None color=None text='ExtraLight'
+    p1r0: align=LEFT (1) font='Pretendard ExtraLight' size=254000 bold=None color=None text='글자'
+    p1r1: align=LEFT (1) font='Pretendard ExtraLight' size=254000 bold=None color=None text=' '
+    p1r2: align=LEFT (1) font='Pretendard ExtraLight' size=254000 bold=None color=None text='크기'
+    p1r3: align=LEFT (1) font='Pretendard ExtraLight' size=254000 bold=None color=None text=': 20('
+    p1r4: align=LEFT (1) font='Pretendard ExtraLight' size=254000 bold=None color=None text='기본'
+    p1r5: align=LEFT (1) font='Pretendard ExtraLight' size=254000 bold=None color=None text='), '
+    p1r6: align=LEFT (1) font='Pretendard ExtraLight' size=254000 bold=None color=None text='축소'
+    p1r7: align=LEFT (1) font='Pretendard ExtraLight' size=254000 bold=None color=None text=' '
+    p1r8: align=LEFT (1) font='Pretendard ExtraLight' size=254000 bold=None color=None text='가능'
+    p3r0: align=LEFT (1) font='Pretendard ExtraLight' size=254000 bold=None color=None text='이 부분은 본문 내용을 다루기 위한 '
+    p3r1: align=LEFT (1) font='Pretendard ExtraLight' size=254000 bold=None color=None text='place holder '
+    p3r2: align=LEFT (1) font='Pretendard ExtraLight' size=254000 bold=None color=None text='입니다'
+    p4r0: align=None font='Pretendard ExtraLight' size=254000 bold=None color=None text='이 부분은 본문 내용을 다루기 위한 '
+    p4r1: align=None font='Pretendard ExtraLight' size=254000 bold=None color=None text='place holder '
+    p4r2: align=None font='Pretendard ExtraLight' size=254000 bold=None color=None text='입니다'
+    p4r3: align=None font='Pretendard ExtraLight' size=254000 bold=None color=None text='이 부분은 본문 내용을 다루기 위한 '
+    p4r4: align=None font='Pretendard ExtraLight' size=254000 bold=None color=None text='place holder '
+    p4r5: align=None font='Pretendard ExtraLight' size=254000 bold=None color=None text='입니다'
+    p4r6: align=None font='Pretendard ExtraLight' size=254000 bold=None color=None text='이 부분은 본문 내용을 다루기 위한 '
+    p4r7: align=None font='Pretendard ExtraLight' size=254000 bold=None color=None text='place holder '
+    p4r8: align=None font='Pretendard ExtraLight' size=254000 bold=None color=None text='입니다'
+    p4r9: align=None font='Pretendard ExtraLight' size=254000 bold=None color=None text='이 부분은 본문 내용을 다루기 위한 '
+    p4r10: align=None font='Pretendard ExtraLight' size=254000 bold=None color=None text='place holder '
+    p4r11: align=None font='Pretendard ExtraLight' size=254000 bold=None color=None text='입니다'
+  [TEXT_BOX (17)] TextBox 5  L=0.12499781277340333 T=1.0294739720034995 W=10.02553915135608 H=0.5477285651793525
+    p0r0: align=LEFT (1) font='Pretendard SemiBold' size=254000 bold=True color=None text='<'
+    p0r1: align=LEFT (1) font='Pretendard SemiBold' size=254000 bold=True color=None text='부제'
+    p0r2: align=LEFT (1) font='Pretendard SemiBold' size=254000 bold=True color=None text=': '
+    p0r3: align=LEFT (1) font='Pretendard SemiBold' size=254000 bold=True color=None text='이 '
+    p0r4: align=LEFT (1) font='Pretendard SemiBold' size=254000 bold=True color=None text='place holder '
+    p0r5: align=LEFT (1) font='Pretendard SemiBold' size=254000 bold=True color=None text='는 부주제를 위한 칸입니다'
+    p0r6: align=LEFT (1) font='Pretendard SemiBold' size=254000 bold=True color=None text='>'
+
+--- slide 4 (8 shapes) ---
+  [TEXT_BOX (17)] TextBox 6  L=0.125 T=0.08893153980752407 W=10.603261154855643 H=0.7741535433070866
+    p0r0: align=None font='Pretendard SemiBold' size=508000 bold=True color=None text='14.'
+    p0r1: align=None font=None size=508000 bold=None color=None text=' '
+    p0r2: align=None font='Pretendard SemiBold' size=508000 bold=True color=None text='Wiener Processes and '
+    p0r3: align=None font='Pretendard SemiBold' size=508000 bold=True color=None text='Itô’s'
+    p0r4: align=None font='Pretendard SemiBold' size=508000 bold=True color=None text=' Lemma  '
+  [TEXT_BOX (17)] TextBox 8  L=0.14220909886264216 T=1.0038692038495187 W=13.04891404199475 H=0.43756561679790024
+    p0r0: align=None font='Pretendard SemiBold' size=254000 bold=True color=None text='14.1 Markov Property'
+  [LINE (9)] Straight Connector 1  L=0.0 T=0.9334765966754156 W=13.333333333333334 H=0.0
+  [TEXT_BOX (17)] TextBox 9  L=0.14220800524934382 T=1.6192082239720036 W=9.099401793525809 H=0.706836176727909
+    p0r0: align=None font='Pretendard ExtraLight' size=228600 bold=True color=None text='정의'
+    p0r1: align=None font='Pretendard ExtraLight' size=228600 bold=True color=None text=': '
+    p0r2: align=None font='Pretendard ExtraLight' size=228600 bold=True color=None text='미래'
+    p0r3: align=None font='Pretendard ExtraLight' size=None bold=True color=None text=' '
+    p0r4: align=None font='Pretendard ExtraLight' size=None bold=True color=None text='확률 분포를'
+    p0r5: align=None font='Pretendard ExtraLight' size=None bold=True color=None text=' '
+    p0r6: align=None font='Pretendard ExtraLight' size=None bold=True color=None text='추정할 때'
+    p0r7: align=None font='Pretendard ExtraLight' size=228600 bold=True color=None text=' 오직 현재 상태만'
+    p0r8: align=None font='Pretendard ExtraLight' size=None bold=True color=None text=' '
+    p0r9: align=None font='Pretendard ExtraLight' size=None bold=True color=None text='필요하다'
+    p0r10: align=None font='Pretendard ExtraLight' size=None bold=True color=None text='. '
+    p0r11: align=None font='Pretendard ExtraLight' size=None bold=True color=None text='과거 정보는 필요 없다'
+    p0r12: align=None font='Pretendard ExtraLight' size=None bold=True color=None text='.'
+    p1r0: align=None font='Pretendard ExtraLight' size=None bold=True color=None text='성질'
+    p1r1: align=None font='Pretendard ExtraLight' size=None bold=True color=None text=': '
+    p1r2: align=None font='Pretendard ExtraLight' size=None bold=True color=None text='무기억성 '
+    p1r3: align=None font='Pretendard ExtraLight' size=None bold=True color=None text='(memoryless property)'
+  [PICTURE (13)] 그림 12  L=0.14220691163604549 T=2.7939938757655294 W=11.970836614173228 H=0.9878849518810149
+  [TEXT_BOX (17)] TextBox 13  L=0.21491360454943131 T=2.521648075240595 W=9.099401793525809 H=0.4039063867016623
+    p0r0: align=None font='Pretendard ExtraLight' size=None bold=True color=None text='Ex) '
+    p0r1: align=None font='Pretendard ExtraLight' size=None bold=True color=None text='지수분포의 무기억성'
+  [TEXT_BOX (17)] TextBox 14  L=0.21491360454943131 T=3.9846073928258967 W=9.099401793525809 H=0.4039063867016623
+    p0r0: align=None font='Pretendard ExtraLight' size=None bold=True color=None text='왜 주가는 '
+    p0r1: align=None font='Pretendard ExtraLight' size=None bold=True color=None text='Markov Property '
+    p0r2: align=None font='Pretendard ExtraLight' size=None bold=True color=None text='를 따른다고 가정하는가'
+    p0r3: align=None font='Pretendard ExtraLight' size=None bold=True color=None text='?'
+  [AUTO_SHAPE (1)] Rectangle 1  L=0.21491360454943131 T=4.502234251968504 W=9.80577646544182 H=2.524413823272091
+    p0r0: align=LEFT (1) font='Pretendard ExtraLight' size=None bold=None color=None text='현재 '
+    p0r1: align=LEFT (1) font='Pretendard ExtraLight' size=None bold=None color=None text='주가'
+    p0r2: align=LEFT (1) font='Pretendard ExtraLight' size=None bold=None color=None text='에 정보가 상당 부분 반영되어 있다고'
+    p0r3: align=LEFT (1) font='Pretendard ExtraLight' size=None bold=None color=None text=' '
+    p0r4: align=LEFT (1) font='Pretendard ExtraLight' size=None bold=None color=None text='가정'
+    p0r5: align=LEFT (1) font='Pretendard ExtraLight' size=None bold=None color=None text='\uf0e0 '
+    p0r6: align=LEFT (1) font='Pretendard ExtraLight' size=None bold=None color=None text='과거 경로 전체보다 현재 상태가 미래 예측의 핵심 정보'
+    p2r0: align=None font='Pretendard ExtraLight' size=None bold=None color=None text='2. '
+    p2r1: align=None font='Pretendard ExtraLight' size=None bold=None color=None text='이후 모형의 식을 전개하는 과정에 복잡한 전제를 생각할 필요성 無'
+    p2r2: align=None font='Pretendard ExtraLight' size=None bold=None color=None text='      '
+    p2r3: align=None font='Pretendard ExtraLight' size=None bold=None color=None text='\uf0e0 '
+    p2r4: align=None font='Pretendard ExtraLight' size=None bold=None color=None text='옵션가격을 '
+    p2r5: align=None font='Pretendard ExtraLight' size=None bold=None color=None text='V'
+    p2r6: align=None font='Pretendard ExtraLight' size=None bold=None color=None text='('
+    p2r7: align=None font='Pretendard ExtraLight' size=None bold=None color=None text='S,t'
+    p2r8: align=None font='Pretendard ExtraLight' size=None bold=None color=None text=', '
+    p2r9: align=None font='Pretendard ExtraLight' size=None bold=None color=None text='σ'
+    p2r10: align=None font='Pretendard ExtraLight' size=None bold=None color=None text=', …'
+    p2r11: align=None font='Pretendard ExtraLight' size=None bold=None color=None text=')처럼 현재 주가 '
+    p2r12: align=None font='Pretendard ExtraLight' size=None bold=None color=None text='S와'
+    p2r13: align=None font='Pretendard ExtraLight' size=None bold=None color=None text=' 시간 '
+    p2r14: align=None font='Pretendard ExtraLight' size=None bold=None color=None text='t의'
+    p2r15: align=None font='Pretendard ExtraLight' size=None bold=None color=None text=' 함수로 쓸 수 '
+    p2r16: align=None font='Pretendard ExtraLight' size=None bold=None color=None text='있음'
+    p2r17: align=None font='Pretendard ExtraLight' size=None bold=None color=None text='. ('
+    p2r18: align=None font='Pretendard ExtraLight' size=None bold=None color=None text='index'
+    p2r19: align=None font='Pretendard ExtraLight' size=None bold=None color=None text=' 단축'
+    p2r20: align=None font='Pretendard ExtraLight' size=None bold=None color=None text=')'
+    p4r0: align=LEFT (1) font='Pretendard ExtraLight' size=None bold=None color=None text='3. '
+    p4r1: align=LEFT (1) font='Pretendard ExtraLight' size=None bold=None color=None text='물론 이러한 가정이 현실을 충분히 반영하지는 '
+    p4r2: align=LEFT (1) font='Pretendard ExtraLight' size=None bold=None color=None text='못할 '
+    p4r3: align=LEFT (1) font='Pretendard ExtraLight' size=None bold=None color=None text='것임'
+    p4r4: align=LEFT (1) font='Pretendard ExtraLight' size=None bold=None color=None text='. '
+    p4r5: align=LEFT (1) font='Pretendard ExtraLight' size=None bold=None color=None text='      '
+    p4r6: align=LEFT (1) font='Pretendard ExtraLight' size=None bold=None color=None text='\uf0e0 '
+    p4r7: align=LEFT (1) font='Pretendard ExtraLight' size=None bold=None color=None text='약형 효율적 시장가설과 비슷한 성질을 띈다'
+    p4r8: align=LEFT (1) font='Pretendard ExtraLight' size=None bold=None color=None text='.'
+
+--- slide 5 (8 shapes) ---
+  [TEXT_BOX (17)] Google Shape;107;p3  L=0.12499890638670166 T=0.8854440069991251 W=13.208334426946632 H=6.15952646544182
+    p0r0: align=LEFT (1) font='Pretendard SemiBold' size=254000 bold=None color=None text='Fixed-for-Fixed Currency Swap'
+    p6r0: align=LEFT (1) font='Pretendard ExtraLight' size=254000 bold=None color=None text='General Electric'
+    p6r1: align=LEFT (1) font='Pretendard ExtraLight' size=254000 bold=None color=None text='이 '
+    p6r2: align=LEFT (1) font='Pretendard ExtraLight' size=254000 bold=None color=None text='Qantas Airways'
+    p6r3: align=LEFT (1) font='Pretendard ExtraLight' size=254000 bold=None color=None text='에 비해 두 통화에서 모두 절대우위를 가지고 있음'
+    p7r0: align=LEFT (1) font='Pretendard SemiBold' size=254000 bold=None color=None text='두 통화에서 차입금리차를 비교하면 '
+    p7r1: align=LEFT (1) font='Pretendard SemiBold' size=254000 bold=None color=None text='General electric'
+    p7r2: align=LEFT (1) font='Pretendard SemiBold' size=254000 bold=None color=None text='은 '
+    p7r3: align=LEFT (1) font='Pretendard SemiBold' size=254000 bold=None color=None text='USD'
+    p7r4: align=LEFT (1) font='Pretendard SemiBold' size=254000 bold=None color=None text='에'
+    p7r5: align=LEFT (1) font='Pretendard SemiBold' size=254000 bold=None color=None text=', Qantas Airways'
+    p7r6: align=LEFT (1) font='Pretendard SemiBold' size=254000 bold=None color=None text='는 '
+    p7r7: align=LEFT (1) font='Pretendard SemiBold' size=254000 bold=None color=None text='AUD'
+    p7r8: align=LEFT (1) font='Pretendard SemiBold' size=254000 bold=None color=None text='에 비교우위를 가지고 있음'
+    p9r0: align=LEFT (1) font='Pretendard ExtraLight' size=254000 bold=None color=None text='이러한 비교우위는 세금 때문에 만들어질 수 있음'
+    p10r0: align=LEFT (1) font='Pretendard ExtraLight' size=254000 bold=None color=None text='(General Electric'
+    p10r1: align=LEFT (1) font='Pretendard ExtraLight' size=254000 bold=None color=None text='은 '
+    p10r2: align=LEFT (1) font='Pretendard ExtraLight' size=254000 bold=None color=None text='USD '
+    p10r3: align=LEFT (1) font='Pretendard ExtraLight' size=254000 bold=None color=None text='차입이 세금 측면에서 '
+    p10r4: align=LEFT (1) font='Pretendard ExtraLight' size=254000 bold=None color=None text='AUD'
+    p10r5: align=LEFT (1) font='Pretendard ExtraLight' size=254000 bold=None color=None text='로 차입을 하는 것보다 더 낮은 세금을 낼 수 있음'
+    p10r6: align=LEFT (1) font='Pretendard ExtraLight' size=254000 bold=None color=None text=','
+    p11r0: align=LEFT (1) font='Pretendard ExtraLight' size=254000 bold=None color=None text='Quantas Airways'
+    p11r1: align=LEFT (1) font='Pretendard ExtraLight' size=254000 bold=None color=None text='는 그 반대'
+    p11r2: align=LEFT (1) font='Pretendard ExtraLight' size=254000 bold=None color=None text=')'
+  [PICTURE (13)] 그림 9  L=0.3037314085739283 T=1.6259951881014874 W=7.3697900262467195 H=1.9398458005249344
+  [TEXT_BOX (17)] Google Shape;105;p3  L=0.125 T=0.08893153980752407 W=7.578125546806649 H=0.7741535433070866
+    p0r0: align=LEFT (1) font='Pretendard SemiBold' size=508000 bold=True color=(18, 43, 70) text='4. Currency Swaps'
+  [LINE (9)] Google Shape;106;p3  L=0.0 T=0.9334765966754156 W=13.333333333333334 H=0.0
+  [AUTO_SHAPE (1)] 원호 4  L=4.657895888013998 T=2.7151192038495187 W=0.38157917760279964 H=0.4581692913385827
+  [AUTO_SHAPE (1)] 원호 5  L=6.475877077865267 T=2.7151192038495187 W=0.38157917760279964 H=0.4581692913385827
+  [TEXT_BOX (17)] TextBox 6  L=5.039475065616798 T=2.761823053368329 W=1.127571084864392 H=0.3365890201224847
+    p0r0: align=None font='Pretendard ExtraLight' size=None bold=None color=None text='2.0%p '
+    p0r1: align=None font='Pretendard ExtraLight' size=None bold=None color=None text='차이'
+  [TEXT_BOX (17)] TextBox 7  L=6.857456255468066 T=2.7618219597550304 W=1.1293252405949257 H=0.3365890201224847
+    p0r0: align=None font='Pretendard ExtraLight' size=None bold=None color=None text='0.4%p '
+    p0r1: align=None font='Pretendard ExtraLight' size=None bold=None color=None text='차이'
+
+--- slide 6 (5 shapes) ---
+  [TEXT_BOX (17)] Google Shape;105;p3  L=0.125 T=0.08893153980752407 W=7.578125546806649 H=0.7741535433070866
+    p0r0: align=LEFT (1) font='Pretendard SemiBold' size=508000 bold=True color=(18, 43, 70) text='4. Currency Swaps'
+  [LINE (9)] Google Shape;106;p3  L=0.0 T=0.9334765966754156 W=13.333333333333334 H=0.0
+  [TEXT_BOX (17)] Google Shape;107;p3  L=0.12499890638670166 T=0.8854440069991251 W=13.208334426946632 H=6.15952646544182
+    p0r0: align=LEFT (1) font='Pretendard SemiBold' size=254000 bold=None color=None text='Fixed-for-Fixed Currency Swap'
+    p4r0: align=LEFT (1) font='Pretendard ExtraLight' size=254000 bold=None color=None text='General Electric'
+    p4r1: align=LEFT (1) font='Pretendard ExtraLight' size=254000 bold=None color=None text='은 '
+    p4r2: align=LEFT (1) font='Pretendard ExtraLight' size=254000 bold=None color=None text='20 million'
+    p4r3: align=LEFT (1) font='Pretendard ExtraLight' size=254000 bold=None color=None text=' '
+    p4r4: align=LEFT (1) font='Pretendard ExtraLight' size=254000 bold=None color=None text='AUD'
+    p4r5: align=LEFT (1) font='Pretendard ExtraLight' size=254000 bold=None color=None text='를 차입하고 싶고 '
+    p4r6: align=LEFT (1) font='Pretendard ExtraLight' size=254000 bold=None color=None text='Quantas Airways'
+    p4r7: align=LEFT (1) font='Pretendard ExtraLight' size=254000 bold=None color=None text='는 '
+    p4r8: align=LEFT (1) font='Pretendard ExtraLight' size=254000 bold=None color=None text='15 million'
+    p4r9: align=LEFT (1) font='Pretendard ExtraLight' size=254000 bold=None color=None text=' '
+    p4r10: align=LEFT (1) font='Pretendard ExtraLight' size=254000 bold=None color=None text='USD'
+    p4r11: align=LEFT (1) font='Pretendard ExtraLight' size=254000 bold=None color=None text='를 차입하고 싶음'
+    p5r0: align=LEFT (1) font='Pretendard ExtraLight' size=254000 bold=None color=None text='현재 환율은 '
+    p5r1: align=LEFT (1) font='Pretendard ExtraLight' size=254000 bold=None color=None text='0.7500(USD/AUD)'
+    p5r2: align=LEFT (1) font='Pretendard ExtraLight' size=254000 bold=None color=None text='라고 가정'
+    p5r3: align=LEFT (1) font='Pretendard ExtraLight' size=254000 bold=None color=None text=', '
+    p5r4: align=LEFT (1) font='Pretendard ExtraLight' size=254000 bold=None color=None text='따라서 다음과 같은 '
+    p5r5: align=LEFT (1) font='Pretendard ExtraLight' size=254000 bold=None color=None text='스왑'
+    p5r6: align=LEFT (1) font='Pretendard ExtraLight' size=254000 bold=None color=None text=' 계약을 체결'
+    p7r0: align=LEFT (1) font='Pretendard ExtraLight' size=254000 bold=None color=None text='General Electric : USD 5.0% + AUD 6.9% - USD 5.0% = AUD 6.9%'
+    p7r1: align=LEFT (1) font='Pretendard ExtraLight' size=254000 bold=None color=None text='로 차입한 효과'
+    p8r0: align=None font='Pretendard SemiBold' size=254000 bold=None color=None text='⟹ '
+    p8r1: align=None font='Pretendard SemiBold' size=254000 bold=None color=None text='직접 '
+    p8r2: align=None font='Pretendard SemiBold' size=254000 bold=None color=None text='AUD'
+    p8r3: align=None font='Pretendard SemiBold' size=254000 bold=None color=None text='로 차입했을 때보다 '
+    p8r4: align=None font='Pretendard SemiBold' size=254000 bold=None color=None text='0.7%p'
+    p8r5: align=None font='Pretendard SemiBold' size=254000 bold=None color=None text=' 이득'
+    p9r0: align=None font='Pretendard ExtraLight' size=254000 bold=None color=None text='Quantas Airways : AUD 8.0% + USD 6.3% - AUD 8.0% = USD 6.3%'
+    p9r1: align=None font='Pretendard ExtraLight' size=254000 bold=None color=None text='로 차입한 효과'
+    p10r0: align=None font='Pretendard SemiBold' size=254000 bold=None color=None text='⟹ '
+    p10r1: align=None font='Pretendard SemiBold' size=254000 bold=None color=None text='직접 '
+    p10r2: align=None font='Pretendard SemiBold' size=254000 bold=None color=None text='USD'
+    p10r3: align=None font='Pretendard SemiBold' size=254000 bold=None color=None text='로 차입했을 때보다 '
+    p10r4: align=None font='Pretendard SemiBold' size=254000 bold=None color=None text='0.7%p'
+    p10r5: align=None font='Pretendard SemiBold' size=254000 bold=None color=None text=' 이득'
+  [PICTURE (13)] 그림 10  L=0.27032589676290464 T=1.5972222222222223 W=6.625274496937883 H=1.3406157042869642
+  [PICTURE (13)] 그림 12  L=7.703125546806649 T=1.449653324584427 W=5.103427384076991 H=1.34330271216098
+
+========== m2.pptx ==========
+slide_width:  13.333"
+slide_height: 7.500"
+slides:       45
+
+--- slide 1 (8 shapes) ---
+  [PICTURE (13)] Picture 7  L=10.577472659667542 T=-0.41732939632545935 W=2.270731627296588 H=1.7030468066491689
+  [LINE (9)] Straight Connector 12  L=0.0 T=6.703125546806649 W=13.333333333333334 H=0.0
+  [PICTURE (13)] Picture 18  L=0.0 T=2.1872265966754155e-06 W=10.092342519685038 H=6.703122265966754
+  [TEXT_BOX (17)] TextBox 1  L=0.4232863079615048 T=2.5437489063867016 W=9.663770778652669 H=1.7232633420822396
+    p0r0: align=None font='Pretendard ExtraBold' size=558800 bold=True color=(255, 255, 255) text='KTB Futures Basis Trading Strategy Development'
+  [TEXT_BOX (17)] TextBox 4  L=0.42857064741907264 T=4.294010279965004 W=9.663771872265967 H=0.5217125984251969
+    p0r0: align=None font='Pretendard' size=317500 bold=True color=None text='국고채'
+    p0r1: align=None font='Pretendard' size=317500 bold=True color=None text=' 선물 '
+    p0r2: align=None font='Pretendard' size=317500 bold=True color=None text='베이시스'
+    p0r3: align=None font='Pretendard' size=317500 bold=True color=None text=' 트레이딩 전략 구축'
+  [LINE (9)] Straight Connector 6  L=10.092342519685038 T=0.0 W=0.0 H=7.5
+  [PICTURE (13)] Picture 8  L=10.10731627296588 T=6.703125546806649 W=3.2409897200349955 H=0.7968744531933508
+  [TEXT_BOX (17)] TextBox 12  L=0.48995188101487314 T=6.9022211286089235 W=8.710823490813649 H=0.3365890201224847
+    p0r0: align=None font='Pretendard SemiBold' size=254000 bold=True color=(18, 43, 70) text='Y-'
+    p0r1: align=None font='Pretendard SemiBold' size=254000 bold=True color=(18, 43, 70) text='FoRM'
+    p0r2: align=None font='Pretendard SemiBold' size=254000 bold=True color=(18, 43, 70) text=' 37ᵗʰ '
+    p0r3: align=None font='Pretendard SemiBold' size=254000 bold=True color=(18, 43, 70) text='이상윤'
+    p0r4: align=None font='Pretendard SemiBold' size=254000 bold=True color=(18, 43, 70) text=' 38ᵗʰ '
+    p0r5: align=None font='Pretendard SemiBold' size=254000 bold=True color=(18, 43, 70) text='김희성'
+    p0r6: align=None font='Pretendard SemiBold' size=254000 bold=True color=(18, 43, 70) text=' '
+    p0r7: align=None font='Pretendard SemiBold' size=254000 bold=True color=(18, 43, 70) text='박상혁'
+    p0r8: align=None font='Pretendard SemiBold' size=254000 bold=True color=(18, 43, 70) text=' '
+    p0r9: align=None font='Pretendard SemiBold' size=254000 bold=True color=(18, 43, 70) text='배민성'
+    p0r10: align=None font='Pretendard SemiBold' size=254000 bold=True color=(18, 43, 70) text=' 조혜래'
+
+--- slide 2 (5 shapes) ---
+  [TEXT_BOX (17)] TextBox 6  L=0.3125 T=0.10937554680664917 W=4.507245188101487 H=0.9424475065616797
+    p0r0: align=None font='Pretendard SemiBold' size=635000 bold=True color=None text='Contents'
+  [TEXT_BOX (17)] TextBox 8  L=0.3125 T=1.582696850393701 W=9.45312445319335 H=4.445984251968504
+    p0r0: align=JUSTIFY (4) font='Pretendard ExtraLight' size=317500 bold=None color=None text='Research Background'
+    p1r0: align=JUSTIFY (4) font='Pretendard ExtraLight' size=317500 bold=None color=None text='KTB & KTB Futures '
+    p2r0: align=JUSTIFY (4) font='Pretendard ExtraLight' size=317500 bold=None color=None text='Theoretical Pricing Model'
+    p3r0: align=JUSTIFY (4) font='Pretendard ExtraLight' size=317500 bold=None color=None text='Basis Trading Strategies'
+    p4r0: align=JUSTIFY (4) font='Pretendard ExtraLight' size=317500 bold=None color=None text='Result Analysis'
+    p5r0: align=JUSTIFY (4) font='Pretendard ExtraLight' size=317500 bold=None color=None text='Conclusion'
+    p6r0: align=JUSTIFY (4) font='Pretendard ExtraLight' size=317500 bold=None color=None text='Appendix'
+  [LINE (9)] Straight Connector 1  L=0.0 T=1.1953915135608049 W=10.115940507436571 H=0.0
+  [LINE (9)] Straight Connector 11  L=0.0 T=6.703125546806649 W=13.333333333333334 H=0.0
+  [PICTURE (13)] Picture 4  L=10.115940507436571 T=0.0 W=11.292135826771654 H=7.5
+
+--- slide 3 (6 shapes) ---
+  [TEXT_BOX (17)] TextBox 6  L=0.125 T=0.08893153980752407 W=7.578125546806649 H=0.7741535433070866
+    p0r0: align=None font='Pretendard SemiBold' size=508000 bold=True color=None text='1. '
+    p0r1: align=None font='Pretendard SemiBold' size=508000 bold=True color=None text='Research Background'
+  [LINE (9)] Straight Connector 1  L=0.0 T=0.9334765966754156 W=13.333333333333334 H=0.0
+  [AUTO_SHAPE (1)] Trapezoid 56  L=3.9140627734033244 T=5.057407042869642 W=5.0282239720035 H=0.9573829833770778
+  [TEXT_BOX (17)] TextBox 4  L=0.125 T=1.0038692038495187 W=13.208333333333334 H=2.825450568678915
+    p0r0: align=None font='Pretendard ExtraLight' size=254000 bold=True color=(0, 0, 0) text='Motivation'
+    p1r0: align=None font='Pretendard ExtraLight' size=None bold=None color=None text='현물과 선물의 가격 차이'
+    p1r1: align=None font='Pretendard ExtraLight' size=None bold=None color=None text='('
+    p1r2: align=None font='Pretendard ExtraLight' size=None bold=None color=None text='베이시스'
+    p1r3: align=None font='Pretendard ExtraLight' size=None bold=None color=None text=')'
+    p1r4: align=None font='Pretendard ExtraLight' size=None bold=None color=None text='가 비정상적으로 벌어지면 차익거래 기회가 발생'
+    p2r0: align=None font='Pretendard ExtraLight' size=None bold=None color=None text='이때'
+    p2r1: align=None font='Pretendard ExtraLight' size=None bold=None color=None text=', ‘'
+    p2r2: align=None font='Pretendard ExtraLight' size=None bold=None color=None text='선물 이론가격은 현물 가격 '
+    p2r3: align=None font='Pretendard ExtraLight' size=None bold=None color=None text='+'
+    p2r4: align=None font='Pretendard ExtraLight' size=None bold=None color=None text=' '
+    p2r5: align=None font='Pretendard ExtraLight' size=None bold=None color=None text='('
+    p2r6: align=None font='Pretendard ExtraLight' size=None bold=None color=None text='이자'
+    p2r7: align=None font='Pretendard ExtraLight' size=None bold=None color=None text=', '
+    p2r8: align=None font='Pretendard ExtraLight' size=None bold=None color=None text='보관 비용'
+    p2r9: align=None font='Pretendard ExtraLight' size=None bold=None color=None text=')’'
+    p2r10: align=None font='Pretendard ExtraLight' size=None bold=None color=None text='으로 계산한 공정가로 정의'
+    p4r0: align=None font='Pretendard ExtraLight' size=None bold=None color=None text='그러나 한국 '
+    p4r1: align=None font='Pretendard ExtraLight' size=None bold=None color=None text='국고채'
+    p4r2: align=None font='Pretendard ExtraLight' size=None bold=None color=None text=' 선물 시장에서 '
+    p4r3: align=None font='Pretendard ExtraLight' size=None bold=None color=(255, 0, 0) text='현물에서 계산한 선물 이론가'
+    p4r4: align=None font='Pretendard ExtraLight' size=None bold=None color=None text='와 '
+    p4r5: align=None font='Pretendard ExtraLight' size=None bold=None color=(255, 0, 0) text='실제 선물 시장가격'
+    p4r6: align=None font='Pretendard ExtraLight' size=None bold=None color=None text='이 어느 정도 일치하는지'
+    p4r7: align=None font='Pretendard ExtraLight' size=None bold=None color=None text=','
+    p4r8: align=None font='Pretendard ExtraLight' size=None bold=None color=None text='또 '
+    p4r9: align=None font='Pretendard ExtraLight' size=None bold=None color=None text='베이시스가'
+    p4r10: align=None font='Pretendard ExtraLight' size=None bold=None color=None text=' 어느 수준까지 벌어져야 ‘비정상적인 '
+    p4r11: align=None font='Pretendard ExtraLight' size=None bold=None color=None text='괴리’로'
+    p4r12: align=None font='Pretendard ExtraLight' size=None bold=None color=None text=' 볼 수 있는지에 대해서는 정량적으로 검증된 연구가 많지 않음'
+  [GROUP (6)] 그룹 5  L=0.833332239720035 T=6.1646128608923885 W=13.208332239720034 H=0.803821084864392
+  [TEXT_BOX (17)] TextBox 11  L=0.125 T=3.899711286089239 W=13.208333333333334 H=1.0078729221347331
+    p0r0: align=None font='Pretendard ExtraLight' size=254000 bold=True color=(0, 0, 0) text='Methodology'
+    p1r0: align=None font='Pretendard ExtraLight' size=None bold=None color=None text='직접 현물 데이터로부터 이론적인 선물 가격을 계산해보고'
+    p1r1: align=None font='Pretendard ExtraLight' size=None bold=None color=None text=', '
+    p1r2: align=None font='Pretendard ExtraLight' size=None bold=None color=None text='그 가격이 얼마나 시장 선물가와 괴리가 있는지 알아봄'
+
+--- slide 4 (6 shapes) ---
+  [TEXT_BOX (17)] TextBox 6  L=0.125 T=0.08893153980752407 W=13.91666447944007 H=0.7741535433070866
+    p0r0: align=None font='Pretendard SemiBold' size=508000 bold=True color=None text='2'
+    p0r1: align=None font='Pretendard SemiBold' size=508000 bold=True color=None text='. '
+    p0r2: align=None font='Pretendard SemiBold' size=508000 bold=True color=None text='KTB (Korea Treasury Bond)'
+  [LINE (9)] Straight Connector 1  L=0.0 T=0.9334765966754156 W=13.333333333333334 H=0.0
+  [TEXT_BOX (17)] TextBox 4  L=0.125 T=1.0038692038495187 W=13.208333333333334 H=1.5574234470691164
+    p0r0: align=None font='Pretendard ExtraLight' size=254000 bold=None color=(255, 0, 0) text='KTB'
+    p0r1: align=None font='Pretendard ExtraLight' size=254000 bold=None color=(0, 0, 0) text=': '
+    p0r2: align=None font='Pretendard ExtraLight' size=254000 bold=None color=(0, 0, 0) text='정부가 공공목적에 필요한 자금을 확보하기 위해 발행하는 국가가 발행하는 채권'
+    p1r0: align=None font='Pretendard ExtraLight' size=254000 bold=None color=(0, 0, 0) text='국고채권은 '
+    p1r1: align=None font='Pretendard ExtraLight' size=254000 bold=None color=(0, 0, 0) text='6'
+    p1r2: align=None font='Pretendard ExtraLight' size=254000 bold=None color=(0, 0, 0) text='개월 '
+    p1r3: align=None font='Pretendard ExtraLight' size=254000 bold=None color=(0, 0, 0) text='이표채'
+    p1r4: align=None font='Pretendard ExtraLight' size=254000 bold=None color=(0, 0, 0) text=' '
+    p1r5: align=None font='Pretendard ExtraLight' size=254000 bold=None color=(0, 0, 0) text='('
+    p1r6: align=None font='Pretendard ExtraLight' size=254000 bold=None color=(0, 0, 0) text='반기별로 이자 지급'
+    p1r7: align=None font='Pretendard ExtraLight' size=254000 bold=None color=(0, 0, 0) text=')'
+    p2r0: align=None font='Pretendard ExtraLight' size=254000 bold=None color=(0, 0, 0) text='만기는 '
+    p2r1: align=None font='Pretendard ExtraLight' size=254000 bold=None color=(0, 0, 0) text='2,3,5,10,30,50'
+    p2r2: align=None font='Pretendard ExtraLight' size=254000 bold=None color=(0, 0, 0) text='년물로'
+    p2r3: align=None font='Pretendard ExtraLight' size=254000 bold=None color=(0, 0, 0) text=' 다양하게 존재 '
+  [GROUP (6)] Group 5  L=0.550997375328084 T=3.0444772528433948 W=8.056809930008749 H=3.788461286089239
+  [TEXT_BOX (17)] TextBox 9  L=8.90869094488189 T=4.097235345581803 W=4.424642388451444 H=1.6829429133858267
+    p0r0: align=None font='Pretendard ExtraLight' size=254000 bold=None color=(255, 0, 0) text='발행일 '
+    p0r1: align=None font='Pretendard ExtraLight' size=254000 bold=None color=(255, 0, 0) text='= 3,6,9,12'
+    p0r2: align=None font='Pretendard ExtraLight' size=254000 bold=None color=(255, 0, 0) text='월의 '
+    p0r3: align=None font='Pretendard ExtraLight' size=254000 bold=None color=(255, 0, 0) text='10'
+    p0r4: align=None font='Pretendard ExtraLight' size=254000 bold=None color=(255, 0, 0) text='일'
+    p1r0: align=None font='Pretendard ExtraLight' size=254000 bold=None color=(255, 0, 0) text='동일한 만기에 대해서 가장 최근에 발행한 '
+    p1r1: align=None font='Pretendard ExtraLight' size=254000 bold=None color=(255, 0, 0) text='KTB'
+    p1r2: align=None font='Pretendard ExtraLight' size=254000 bold=None color=(255, 0, 0) text='를 '
+    p1r3: align=None font='Pretendard ExtraLight' size=254000 bold=None color=(255, 0, 0) text='지표물'
+    p1r4: align=None font='Pretendard ExtraLight' size=254000 bold=None color=(255, 0, 0) text=', '
+    p1r5: align=None font='Pretendard ExtraLight' size=254000 bold=None color=(255, 0, 0) text='새롭게 발행하면 경과물이 됨'
+  [AUTO_SHAPE (1)] 직사각형 17  L=7.193757655293088 T=3.0444772528433948 W=1.214284776902887 H=3.788461286089239
+
+--- slide 5 (7 shapes) ---
+  [TEXT_BOX (17)] TextBox 6  L=0.125 T=0.08893153980752407 W=13.91666447944007 H=0.7741535433070866
+    p0r0: align=None font='Pretendard SemiBold' size=508000 bold=True color=None text='2'
+    p0r1: align=None font='Pretendard SemiBold' size=508000 bold=True color=None text='. '
+    p0r2: align=None font='Pretendard SemiBold' size=508000 bold=True color=None text='KTB (Korea Treasury Bond)'
+  [LINE (9)] Straight Connector 1  L=0.0 T=0.9334765966754156 W=13.333333333333334 H=0.0
+  [GROUP (6)] Group 2  L=0.125 T=1.3472222222222223 W=9.333325678040245 H=3.8030653980752405
+  [AUTO_SHAPE (1)] 직사각형 5  L=0.4722222222222222 T=2.2222222222222223 W=8.774068241469816 H=0.5
+  [TEXT_BOX (17)] TextBox 10  L=7.195149825021872 T=2.8440758967629045 W=5.711474190726159 H=0.4046784776902887
+    p0r0: align=None font='Pretendard ExtraLight' size=254000 bold=None color=None text='현재 상장된 선물의 바스켓 채권이 되는 국고채들 '
+    p0r1: align=None font='Pretendard ExtraLight' size=254000 bold=None color=None text='list'
+  [TEXT_BOX (17)] TextBox 8  L=0.4722222222222222 T=5.272141294838145 W=17.833333333333332 H=1.0525404636920386
+    p0r0: align=None font='Pretendard ExtraLight' size=254000 bold=None color=None text='선물이 다양하게 거래되고 있고'
+    p0r1: align=None font='Pretendard ExtraLight' size=254000 bold=None color=None text=', '
+    p0r2: align=None font='Pretendard ExtraLight' size=254000 bold=None color=None text='이에 해당하는 바스켓 채권의 정보가 담겨져 있음'
+    p1r0: align=None font='Pretendard ExtraLight' size=254000 bold=None color=None text='만기는 '
+    p1r1: align=None font='Pretendard ExtraLight' size=254000 bold=None color=None text='2, 3, 5, 10, 30, 50'
+    p1r2: align=None font='Pretendard ExtraLight' size=254000 bold=None color=None text='년으로 다양하게 존재'
+  [TEXT_BOX (17)] TextBox 9  L=0.4722222222222222 T=6.998009623797025 W=7.483333333333333 H=0.5384722222222222
+    p0r0: align=None font='Pretendard ExtraLight' size=177800 bold=None color=(0, 0, 0) text='Source) '
+    p0r1: align=None font='Pretendard ExtraLight' size=177800 bold=None color=(0, 0, 0) text='https://www.kofiabond.or.kr/'
+    p0r2: align=None font='Pretendard ExtraLight' size=177800 bold=None color=(0, 0, 0) text=' ('
+    p0r3: align=None font='Pretendard ExtraLight' size=177800 bold=None color=(0, 0, 0) text='금융투자협회'
+    p0r4: align=None font='Pretendard ExtraLight' size=177800 bold=None color=(0, 0, 0) text=') '
+
+--- slide 6 (8 shapes) ---
+  [TEXT_BOX (17)] TextBox 6  L=0.125 T=0.08893153980752407 W=13.91666447944007 H=0.7741535433070866
+    p0r0: align=None font='Pretendard SemiBold' size=508000 bold=True color=None text='2. KTB Futures\xa0'
+  [LINE (9)] Straight Connector 1  L=0.0 T=0.9334765966754156 W=13.333333333333334 H=0.0
+  [TEXT_BOX (17)] TextBox 4  L=0.2514709098862642 T=1.0038692038495187 W=12.830390419947507 H=2.062306430446194
+    p0r0: align=None font='Pretendard ExtraLight' size=254000 bold=None color=None text='국채선물은 한국 '
+    p0r1: align=None font='Pretendard ExtraLight' size=254000 bold=None color=None text='국고채'
+    p0r2: align=None font='Pretendard ExtraLight' size=254000 bold=None color=None text=' 가격'
+    p0r3: align=None font='Pretendard ExtraLight' size=254000 bold=None color=None text='('
+    p0r4: align=None font='Pretendard ExtraLight' size=254000 bold=None color=None text='수익률'
+    p0r5: align=None font='Pretendard ExtraLight' size=254000 bold=None color=None text=')'
+    p0r6: align=None font='Pretendard ExtraLight' size=254000 bold=None color=None text='에 연동되는 파생상품 '
+    p1r0: align=None font='Pretendard ExtraLight' size=254000 bold=None color=None text='3'
+    p1r1: align=None font='Pretendard ExtraLight' size=254000 bold=None color=None text='년'
+    p1r2: align=None font='Pretendard ExtraLight' size=254000 bold=None color=None text=', 10'
+    p1r3: align=None font='Pretendard ExtraLight' size=254000 bold=None color=None text='년 국채선물은 '
+    p1r4: align=None font='Pretendard ExtraLight' size=254000 bold=None color=None text='3, 6, 9, 12'
+    p1r5: align=None font='Pretendard ExtraLight' size=254000 bold=None color=None text='월 만기 '
+    p1r6: align=None font='Pretendard ExtraLight' size=254000 bold=None color=None text='('
+    p1r7: align=None font='Pretendard ExtraLight' size=254000 bold=None color=None text='일 단위로 구체적으론 둘째 주 화요일이 만기 거래일이 됨'
+    p1r8: align=None font='Pretendard ExtraLight' size=254000 bold=None color=None text=') '
+    p2r0: align=None font='Pretendard ExtraLight' size=254000 bold=None color=None text='한국의 국채 선물은 만기별로 '
+    p2r1: align=None font='Pretendard ExtraLight' size=254000 bold=None color=None text='3,5,10,30'
+    p2r2: align=None font='Pretendard ExtraLight' size=254000 bold=None color=None text='년물이'
+    p2r3: align=None font='Pretendard ExtraLight' size=254000 bold=None color=None text=' 있음'
+    p2r4: align=None font='Pretendard ExtraLight' size=254000 bold=None color=None text='. ('
+    p2r5: align=None font='Pretendard ExtraLight' size=254000 bold=None color=None text='본 프로젝트에서는 한국에서 유동성이 많은 '
+    p2r6: align=None font='Pretendard ExtraLight' size=254000 bold=None color=(255, 0, 0) text='3, 10'
+    p2r7: align=None font='Pretendard ExtraLight' size=254000 bold=None color=None text='년물로'
+    p2r8: align=None font='Pretendard ExtraLight' size=254000 bold=None color=None text=' 사용'
+    p2r9: align=None font='Pretendard ExtraLight' size=254000 bold=None color=None text=')'
+  [TEXT_BOX (17)] TextBox 9  L=1.9999989063867016 T=3.40750656167979 W=11.007140201224846 H=0.4039063867016623
+    p0r0: align=CENTER (2) font='Pretendard ExtraLight' size=None bold=None color=None text='거래 데이터에 '
+    p0r1: align=CENTER (2) font='Pretendard ExtraLight' size=None bold=None color=None text='Nan'
+    p0r2: align=CENTER (2) font='Pretendard ExtraLight' size=None bold=None color=None text=' 값이 없음, '
+    p0r3: align=CENTER (2) font='Pretendard ExtraLight' size=None bold=None color=None text='슬리피지에'
+    p0r4: align=CENTER (2) font='Pretendard ExtraLight' size=None bold=None color=None text=' 대한 위험 최소화, 대규모 주문도 가격 왜곡 없이 빠르게 체결 가능\xa0'
+  [LINE (9)] 직선 화살표 연결선 11  L=9.453859361329833 T=2.649508967629046 W=0.0 H=0.5310465879265092
+  [AUTO_SHAPE (1)] 직사각형 12  L=1.9999989063867016 T=3.353459098862642 W=11.007140201224846 H=0.5150732720909886
+  [TEXT_BOX (17)] TextBox 13  L=7.670235126859143 T=3.958954505686789 W=5.0 H=0.4039063867016623
+    p0r0: align=None font='Pretendard ExtraLight' size=None bold=None color=None text='Cf. '
+    p0r1: align=None font='Pretendard ExtraLight' size=None bold=None color=None text='선물은 각 만기별로 '
+    p0r2: align=None font='Pretendard ExtraLight' size=None bold=None color=None text='2'
+    p0r3: align=None font='Pretendard ExtraLight' size=None bold=None color=None text='개씩 존재'
+  [TEXT_BOX (17)] TextBox 15  L=0.12500109361329834 T=4.5913560804899385 W=12.956861329833771 H=2.1205074365704286
+    p0r0: align=None font='Pretendard ExtraLight' size=254000 bold=True color=None text='How to Pricing?'
+    p2r0: align=None font='Pretendard ExtraLight' size=254000 bold=None color=None text='① 선물의 이론가는 '
+    p2r1: align=None font='Pretendard ExtraLight' size=254000 bold=None color=None text='KRX '
+    p2r2: align=None font='Pretendard ExtraLight' size=254000 bold=None color=None text='에서 공시하는 '
+    p2r3: align=None font='Pretendard ExtraLight' size=254000 bold=None color=(255, 0, 0) text='바스켓 채권'
+    p2r4: align=None font='Pretendard ExtraLight' size=254000 bold=None color=None text='들을 기준으로 계산'
+    p3r0: align=None font='Pretendard ExtraLight' size=254000 bold=None color=None text='② 바스켓 내의 해당채권의 수익률을 이용하여 최종결제가격을 산출하므로'
+    p3r1: align=None font='Pretendard ExtraLight' size=254000 bold=None color=None text=', '
+    p3r2: align=None font='Pretendard ExtraLight' size=254000 bold=None color=None text='국채선물의 이론가 계산은 개별 채권의 선도수익률을 구하는 과정을 통하여 산출'

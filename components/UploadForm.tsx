@@ -135,7 +135,7 @@ export function UploadForm({ onSubmit, disabled }: Props) {
         disabled={disabled}
         className="rounded bg-[#122B46] px-6 py-3 font-bold text-white transition hover:bg-[#1d3e5e] disabled:cursor-not-allowed disabled:opacity-50"
       >
-        {disabled ? "생성 중..." : "개쩌는 딸깍 PPTX 생성 버튼"}
+        {disabled ? "생성 중..." : "장표 딸깍 버튼"}
       </button>
 
       <style jsx>{`

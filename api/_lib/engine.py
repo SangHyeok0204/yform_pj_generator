@@ -35,11 +35,11 @@ F_SEMI = "Pretendard SemiBold"
 F_BOLD = "Pretendard ExtraBold"
 F_REG = "Pretendard"
 
-# === Cover anchors ===
+# === Cover anchors === (matched to reference/master_deck_1.pptx slide 1)
 COVER_HERO_MAIN = (Inches(0.00), Inches(0.00), Inches(10.09), Inches(6.70))
 COVER_HERO_STRIP = (Inches(10.09), Inches(6.70), Inches(3.24), Inches(0.80))
-COVER_LOGO = (Inches(10.58), Inches(1.14), Inches(2.27), Inches(1.70))
-COVER_TITLE = (Inches(0.50), Inches(2.91), Inches(9.20), Inches(2.42))
+COVER_LOGO = (Inches(10.58), Inches(-0.42), Inches(2.27), Inches(1.70))
+COVER_TITLE = (Inches(0.27), Inches(2.91), Inches(9.40), Inches(2.42))
 COVER_MEMBERS = (Inches(0.20), Inches(6.88), Inches(9.41), Inches(0.44))
 
 # === Standard anchors ===
@@ -48,10 +48,11 @@ RULE_X1, RULE_Y, RULE_X2 = Inches(0.00), Inches(0.93), Inches(13.33)
 SUB_X, SUB_Y, SUB_W, SUB_H = Inches(0.14), Inches(1.00), Inches(13.05), Inches(0.55)
 BODY_X, BODY_Y, BODY_W, BODY_H = Inches(0.12), Inches(1.62), Inches(13.09), Inches(5.58)
 
-# === TOC anchors ===
+# === TOC anchors === (matched to reference/master_deck_1.pptx slide 2)
+TOC_DECOR = (Inches(10.12), Inches(-0.04), Inches(11.29), Inches(7.50))
 TOC_HDR_X, TOC_HDR_Y, TOC_HDR_W, TOC_HDR_H = Inches(0.31), Inches(0.11), Inches(4.51), Inches(0.94)
 TOC_RULE_X1, TOC_RULE_Y, TOC_RULE_X2 = Inches(0.00), Inches(1.20), Inches(10.12)
-TOC_LIST_X, TOC_LIST_Y, TOC_LIST_W, TOC_LIST_H = Inches(0.31), Inches(1.34), Inches(9.45), Inches(4.75)
+TOC_LIST_X, TOC_LIST_Y, TOC_LIST_W, TOC_LIST_H = Inches(0.31), Inches(1.34), Inches(9.45), Inches(3.13)
 TOC_BOTTOM_RULE_Y = Inches(6.70)
 
 
@@ -107,7 +108,7 @@ def add_subtitle(slide, text):
     p.alignment = PP_ALIGN.LEFT
     r = p.add_run()
     r.text = text
-    style_run(r, font=F_SEMI, size=24, color=NAVY, bold=True)
+    style_run(r, font=F_SEMI, size=20, color=NAVY, bold=True)
     return tb
 
 
@@ -218,13 +219,20 @@ def build_cover(prs, project_title, project_subtitle, member_line):
 
 
 def build_toc(prs, items):
+    """Build TOC verbatim per master_deck_1.pptx slide 2:
+    decor strip (right) -> 'Contents' SemiBold 50pt -> short top rule ->
+    single-textbox numbered list (one paragraph per section, ExtraLight 20pt navy,
+    'N. Name' as one run -- no red, no chip) -> full-width bottom rule.
+    """
     slide = prs.slides.add_slide(prs.slide_layouts[6])
+    slide.shapes.add_picture(str(ASSETS_DIR / "toc_decor.png"), *TOC_DECOR)
+
     tb = add_textbox(slide, TOC_HDR_X, TOC_HDR_Y, TOC_HDR_W, TOC_HDR_H)
     p = tb.text_frame.paragraphs[0]
     p.alignment = PP_ALIGN.LEFT
     r = p.add_run()
     r.text = "Contents"
-    style_run(r, font=F_BOLD, size=50, color=NAVY, bold=True, spacing=-100)
+    style_run(r, font=F_SEMI, size=50, color=NAVY, bold=True, spacing=-100)
 
     add_hairline(slide, TOC_RULE_X1, TOC_RULE_Y, TOC_RULE_X2, color=NAVY)
 
@@ -240,14 +248,11 @@ def build_toc(prs, items):
             p = tf.add_paragraph()
         p.alignment = PP_ALIGN.LEFT
         p.line_spacing = 1.5
-        p.space_before = Pt(6)
-        p.space_after = Pt(6)
-        rn = p.add_run()
-        rn.text = f"{i:02d}.   "
-        style_run(rn, font=F_BOLD, size=20, color=RED, bold=True)
-        rt = p.add_run()
-        rt.text = item
-        style_run(rt, font=F_LIGHT, size=20, color=INK)
+        p.space_before = Pt(2)
+        p.space_after = Pt(2)
+        r = p.add_run()
+        r.text = f"{i}. {item}"
+        style_run(r, font=F_LIGHT, size=20, color=NAVY)
 
     add_hairline(slide, Inches(0.00), TOC_BOTTOM_RULE_Y, Inches(13.33), color=NAVY)
     return slide
